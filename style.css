@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    width: 100%;
+    background-color: white;
+}
+
+nav {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    width: 400px;
+    justify-content: space-evenly;
+}
+
+nav h2 {
+    font-weight: 700;
+    font-size: 34px;
+}
+
+ul li {
+    color: gray;
+    font-size: 18px;
+}
+
+ul li:hover {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.principal {
+    background-image: url(imagens/laranja\ azul\ recorte.png);
+    width: 100%;
+    height: 600px;
+    background-size: 100%;
+}
+
+.principal div {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+
+}
+
+.principal div h1 {
+    margin: 220px 0px 50px 0px;
+    font-size: 55px;
+    font-weight: 800;
+}
+
+.principal div h2 {
+    font-size: 25px;
+    font-weight: 200;
+    text-transform:uppercase;
+}
+.imagens{
+    width: 100%;
+}
+.imagens div{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 50px 0px 50px 0px;
+}
+.imagens div img{
+    width: 295px;
+    justify-content: center;
+}
+ footer{
+    width: 100%;
+    background-color: gray;
+ }
+.footer{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+.pictures{
+    width: 260px;
+}
+.pictures img{
+    width: 30px;
+}
+@media (min-width:375px) and (max-width:480px){ 
+    .principal div{
+        width: 100%;
+}
+.imagens{
+    width: 100%;
+}
+.imagens div{
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+}
+.footer p{
+    width: 5px;
+}
+nav{
+    width: 100%;
+}
+ul li{
+    font-size: 10px;
+}
+.principal{
+    background-repeat: no-repeat;
+    height: 100%;
+    
+    
+}
+.principal div h1{
+    font-size: 35px;
+    background-color: aqua;
+    margin: 100px 0px 50px 0px;
+    width: 100px;
+}
+.principal div h2{
+    font-size: 15px;
+    background-color: black;
+
+    
+}
+
+}
+
